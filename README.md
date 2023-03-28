@@ -4,10 +4,11 @@
      An optional alpha component represents the color's transparency rgba()
      
 #Syntax
-    /* Syntax with space-separated values */
+
+    Syntax with space-separated values
     rgb(255 255 255)
     rgb(255 255 255 / .5)
-
+    
     /* Syntax with comma-separated values */
     rgb(255, 255, 255)
     rgb(255, 255, 255, .5)
