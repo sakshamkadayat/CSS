@@ -20,7 +20,8 @@
     rgba(255, 255, 255)
     rgba(255, 255, 255, .5)
     
-          The rgb() function accepts three space-separated values, representing respectively values for red, green, and blue. Optionally it may                                   also be given a slash / followed by a fourth value, representing alpha.
+          The rgb() function accepts three space-separated values, representing respectively values for red, green, and blue. 
+          Optionally it may also be given a slash / followed by a fourth value, representing alpha.
           The function also accepts a legacy syntax in which all values are separated with commas.
 
 #Opacity(alpha)
