@@ -29,3 +29,5 @@
           A <number> clamped between 0 and 1, or a <percentage>. 
           This value represents opacity, where the number 1 corresponds to 100% (full opacity).
           It defaults to 100%.
+#color.html
+![color](https://user-images.githubusercontent.com/57257951/228118993-8e32f619-91de-48b2-9138-e0ce7274a1ae.jpg)
