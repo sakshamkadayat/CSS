@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAckground-Images</title>
+    <style>
+        .container-1 {
+            height: 650px;
+            width: 900px;
+            border: 1px solid black;
+            background-color: hsla(12, 78%, 20%, 0.2);
+            background-image: url(/background/back1.webp);
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            /* background-position: bottom right;
+            background-position: top right;
+            background-position: top left; */
+            /* background-repeat: repeat;
+            background-repeat: repeat-x;
+            background-repeat: repeat-y; */
+            margin: 12px auto;
+        }
+
+        .container-2 {
+            height: 450px;
+            width: 900px;
+            border: 1px solid black;
+            background-color: #ff002a;
+            margin: 0 auto;
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-image: url(/background/back1.webp);
+        }
+
+        .container-3 {
+            width: 900px;
+            height: 1000px;
+            border: 1px solid black;
+            margin: 0 auto;
+            /* background-image: url(/background/back1.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment:fixed; */
+            background: #ff9a8d url(./back1.webp) no-repeat center fixed ;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1"></div>
+    <div class="container-2"></div>
+    <div class="container-3">
+        <p style="text-align: center;"> This is test </p>
+    </div>
+</body>
+
+</html>
