@@ -1,0 +1,37 @@
+<!-- an overflow occurs when the content of an element is too large to fit within the dimensions specified for that element. 
+When this happens, the overflow property can be used to control how the excess content is displayed. -->
+
+<!-- The overflow property has several values:
+
+1.visible: The default value. The content overflows the container and is visible outside of it.
+2.hidden: The content that overflows is hidden and not visible outside of the container.
+3.scroll: Adds a scrollbar to the container, allowing users to scroll through the overflowing content.
+4.auto: Similar to scroll, but a scrollbar is added only when necessary.
+5.inherit: Inherits the overflow value from the parent element. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow hidden</title>
+    <style>
+        .container-text{
+            border: 1px solid rgb(212, 27, 27);
+            width: 50%;
+            height:100px;
+            overflow: hidden;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-text">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo, magnam aspernatur enim harum veniam iusto nemo amet, veritatis omnis iure nisi eius quisquam, fugiat iste vel ab. Ab, expedita.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius dignissimos tenetur corrupti, at est nostrum? Dolorum nesciunt nam officiis blanditiis fugit, inventore temporibus recusandae. Et quidem incidunt doloremque perspiciatis? Inventore?
+        </p>
+    </div>
+</body>
+</html>
