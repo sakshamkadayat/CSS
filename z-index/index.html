@@ -7,44 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         .container-1 {
-            border: 1px solid black;
-            background-color: yellow;
-            height: 85px;
-            width: 85px;
+        .container-1 img {
+            height: 270px;
+            width: 200px;
             z-index: 2;
             position: absolute;
             top: 0;
-            left: 0;
-        }
-        .container-2 {
-            border: 1px solid black;
-            background-color: aquamarine;
-            height: 85px;
-            width: 85px;
-            z-index: 3;
-            position: absolute;
-            top: 0;
-            left: 22px;
+            left: 60px;
         }
 
-        .container-3 {
-            border: 1px solid black;
-            background-color: red;
-            height: 85px;
-            width: 85px;
-            z-index: 4;
-            position: absolute;
-            top: 0;
-            left: 55px;
+        .container-2 img {
+            height: 350px;
+            width: 550px;
+            z-index: 1;
+            position: relative;
+            left: 26px;
+            bottom: 75px;
         }
+
     </style>
 </head>
 
 <body>
-    <div class="container-1"></div>
-    <div class="container-2"></div>
-    <div class="container-3"></div>
+    <div class="container-big">
+        <div class="container-1">
+            <img src="./moti.png" alt="moti">
+        </div>
+        <div class="container-2">
+            <img src="./muso.png" alt="muso">
+        </div>
+    </div>
+
 
 </body>
 
